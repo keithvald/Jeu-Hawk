@@ -1,0 +1,128 @@
+@font-face{
+	font-family: "ThatPaper";
+	src: url("ThatPaper.ttf"); ;
+
+
+}
+
+
+
+
+
+body {
+    margin: 0;
+	padding: 0;
+    background: url(IMAGES/fond.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#grille {
+	width: 900px;
+	height: auto;
+	min-width: 500px;
+	max-width: 900px;
+	margin-left: 350px;
+	margin-top: 120px;
+}
+
+.displayNone { display: none; }
+
+.dices {
+	position: absolute;
+	top: 0px;
+}
+
+
+
+
+audio{
+	margin-left: 660px;
+}
+
+
+
+#btn-new
+{
+	color: rgb(132, 102, 170);
+	font-size: 3em;
+	border-radius: 25px;
+	border: inset;
+	font-family: "ThatPaper";
+	padding-top:;
+	padding-bottom:;
+	padding-left:;
+	padding-right:; 
+	margin-left: 710px;
+	margin-top: 40px;
+	background-color: pink;
+}
+
+#goo
+{
+	color: rgb(132, 102, 170);
+	font-size: 3em;
+	border-radius: 25px;
+	border: inset;
+	font-family: "ThatPaper";
+	padding-top:;
+	padding-bottom:;
+	padding-left:;
+	padding-right:; 
+	margin-left: 660px;
+	margin-top: 5px;
+	background-color: pink;
+}
+
+
+
+
+
+
+#dice-one {
+ left: 250px; 
+ width: 300px;
+}
+#dice-two {
+ left: 1000px; 
+ width: 300px;
+}
+
+
+
+
+
+.hawk {
+	position: absolute;
+	z-index: 2;
+	left: 17px;
+	width: 80px;
+	height: 80px;
+}
+
+
+
+
+
+
+#hawk-blue { 
+	top: 270px; 
+	margin-left: 350px;
+}
+#hawk-pink { 
+	top: 380px; 
+	margin-left: 350px;
+}
+#hawk-yellow { 
+	top: 485px; 
+	margin-left: 350px;
+}
+#hawk-green { 
+	top: 600px; 
+	margin-left: 350px;
+}
+#hawk-red {
+	top: 710px; 
+    margin-left: 350px;
+}
+
